@@ -1,0 +1,11 @@
+zuka-yethu-website/
+├── index.html
+├── about.html
+├── products-services.html
+├── outreach.html
+├── contact.html
+├── css/
+│   ├── custom.css
+├── js/
+│   ├── main.js
+└── images/ (you add: hero1.jpg, team.jpg, product.jpg, etc.)

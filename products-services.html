@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products & Services – Zuka Yethu</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+  <style>
+    /* Custom tab styling */
+    .nav-tabs .nav-link {
+      background-color: #5d4037; /* Brown */
+      color: #2E8B57; /* Green */
+      font-weight: 600;
+      border: none;
+      border-radius: 0;
+      padding: 12px 20px;
+      margin-right: 4px;
+      transition: all 0.3s ease;
+    }
+    .nav-tabs .nav-link:hover {
+      color: #e8f5e9;
+      background-color: #4e342e;
+    }
+    .nav-tabs .nav-link.active {
+      background-color: #2E8B57; /* Green */
+      color: white !important;
+      border: none;
+    }
+    .nav-tabs {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/27815876250" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp whatsapp-icon"></i>
+  </a>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="images/logo.png" alt="Zuka Yethu Logo" height="50" class="me-2">
+        <span class="d-none d-md-block">Zuka Yethu</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="products-services.html">Products & Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="outreach.html">Outreach</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Header -->
+  <header class="hero-slide" style="height: 60vh; background-image: url('images/product-bg.jpg');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Organic Solutions</h1>
+      <p>From waste to wealth — for soil, crops, and community</p>
+    </div>
+  </header>
+
+  <!-- Products Tabs -->
+  <section class="py-5">
+    <div class="container">
+      <ul class="nav nav-tabs mb-5 justify-content-center" id="productTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#liquid">Zuka Gud Grow – Liquid</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#solid">Zuka Gud Grow – Solid</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#seedlings">Seedlings</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#waste">Waste Management</button>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <!-- Liquid Product -->
+        <div class="tab-pane fade show active" id="liquid" role="tabpanel">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-6" data-aos="fade-right">
+              <img src="images/liquid-product.jpg" alt="Zuka Gud Grow Liquid" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <h2>Zuka Gud Grow – Liquid</h2>
+              <p>A two-in-one <strong>liquid organic plant supplement and natural insect repellent</strong>, produced from vegetable, fruit, and garden waste using vermi-composting biotechnology.</p>
+              <h5>Benefits:</h5>
+              <ul>
+                <li>Boosts plant growth and yield</li>
+                <li>Repels insects without chemicals</li>
+                <li>Safe for all edible crops</li>
+                <li>Easy to apply via spray bottle or watering can</li>
+              </ul>
+              <a href="https://wa.me/27815876250" class="btn btn-success me-2">Order Now</a>
+              <a href="contact.html" class="btn btn-outline-success">Request Bulk Quote</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solid Product -->
+        <div class="tab-pane fade" id="solid" role="tabpanel">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-6" data-aos="fade-right">
+              <img src="images/solid-compost.jpg" alt="Zuka Gud Grow Solid" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <h2>Zuka Gud Grow – Solid</h2>
+              <p>A <strong>soil-like organic compost</strong> that acts as a growing mix, lawn dressing, soil supplement, and natural insect repellent.</p>
+              <h5>Uses:</h5>
+              <ul>
+                <li>Ideal for starting seedlings</li>
+                <li>Excellent lawn top-dressing</li>
+                <li>Enriches poor soils naturally</li>
+                <li>Reduces need for synthetic fertilizers</li>
+              </ul>
+              <a href="https://wa.me/27815876250" class="btn btn-success me-2">Order Now</a>
+              <a href="contact.html" class="btn btn-outline-success">Request Bulk Quote</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seedlings -->
+        <div class="tab-pane fade" id="seedlings" role="tabpanel">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-6" data-aos="fade-right">
+              <img src="images/seedlings.jpg" alt="Zuka Yethu Seedlings" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <h2>Seedlings</h2>
+              <p>We grow and sell high-quality <strong>vegetable and tree seedlings</strong>, nurtured with Zuka Gud Grow products for optimal health and resilience.</p>
+              <h5>Available:</h5>
+              <ul>
+                <li>Spinach, beetroot, carrots, tomatoes, and more</li>
+                <li>Indigenous and fruit trees</li>
+                <li>Ready for home gardens, schools, or community projects</li>
+              </ul>
+              <a href="https://wa.me/27815876250" class="btn btn-success">Make an Order</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Waste Management -->
+        <div class="tab-pane fade" id="waste" role="tabpanel">
+          <div class="row g-4 align-items-center">
+            <div class="col-md-6" data-aos="fade-right">
+              <img src="images/waste-management.png" alt="Zuka Waste Collection" class="img-fluid rounded shadow">
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+              <h2>Waste Management Services</h2>
+              <p>We provide organic waste collection and disposal services to <strong>households, businesses, and events</strong>. Our goal: <strong>zero waste to landfill</strong>.</p>
+              <h5>How it works:</h5>
+              <ul>
+                <li>We lend community members bins for fruit, vegetable, and garden waste</li>
+                <li>You drop off organic waste at our collection points</li>
+                <li>We convert it into Zuka products—closing the loop!</li>
+              </ul>
+              <a href="contact.html" class="btn btn-success">Book a Collection</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="d-flex align-items-center mb-3">
+            <img src="images/logo.png" alt="Zuka Yethu Logo" height="40" class="me-2">
+            <span class="text-white h5 mb-0">Zuka Yethu</span>
+          </div>
+          <p class="text-white-50">Organic innovation for sustainable, resilient communities across South Africa.</p>
+           <div class="social-icons">
+          <a href="https://web.facebook.com/ZukaYethu" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/zukayethu" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/zuka-yethu-452a45100" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5 class="text-white">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="index.html" class="link-unstyled text-white-50">Home</a></li>
+            <li class="mb-2"><a href="about.html" class="link-unstyled text-white-50">About</a></li>
+            <li class="mb-2"><a href="outreach.html" class="link-unstyled text-white-50">Outreach</a></li>
+            <li class="mb-2"><a href="contact.html" class="link-unstyled text-white-50">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5 class="text-white">Contact</h5>
+          <p class="text-white-50">
+            <i class="fas fa-envelope me-2"></i> 
+            <a href="mailto:info@zukayethu.co.za" class="link-unstyled text-white-50">info@zukayethu.co.za</a>
+          </p>
+          <p class="text-white-50">
+            <i class="fas fa-phone me-2"></i> 
+            <a href="tel:+27815876250" class="link-unstyled text-white-50">+27 81 587 6250</a>
+          </p>
+        </div>
+      </div>
+      <hr style="background: rgba(255,255,255,0.1); border: 0; height: 1px;">
+      <p class="text-center mb-0 text-white-50">&copy; 2025 Zuka Yethu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true });
+  </script>
+</body>
+</html>
